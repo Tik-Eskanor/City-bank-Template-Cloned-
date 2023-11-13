@@ -1,0 +1,388 @@
+*
+{
+    border: px solid;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-size: 85%;
+}
+
+.gray
+{
+    background-color:rgb(241, 232, 232);
+    color: rgb(11, 180, 180);
+}
+
+.bdr
+{
+    border:none;
+    border-radius: 8px;
+}
+
+.dp-n
+{
+    display: none;
+}
+
+.clr-white
+{
+    color:white !important;
+}
+.bclr-white
+{
+    background-color:white !important;
+}
+.bclr-black
+{
+    background-color:black !important;
+}
+
+.bclr-dark
+{
+    background-color:rgb(33, 33, 114) !important;
+    opacity: 0.7;
+}
+.clr-dark
+{
+    color:rgb(33, 33, 114) !important;
+    opacity: 0.7;
+}
+.bclr-dark:hover
+{
+    background-color:rgb(12, 12, 104) !important;
+    opacity: 1;
+}
+
+.round
+{
+    border-radius: 7px;
+}
+.pd
+{
+    padding: 13px 0;
+}
+
+.s-font
+{
+    font-size: 13px;
+}
+.s-font2
+{
+    font-size: 15px;
+}
+.opa
+{
+    opacity: 0.8;
+}
+
+.f9
+{
+    font-weight: 900;
+}
+.ws
+{
+    word-spacing:1px;
+}
+.ls
+{
+    letter-spacing:2px;
+}
+
+.ls2
+{
+    letter-spacing:4px;
+}
+.fft
+{
+    font-family: tahoma;
+}
+.mar-l
+{
+margin:0 100px;
+}
+
+hr
+{
+    background-color:rgb(106, 165, 165);
+    margin-top: 30px;   
+}
+
+
+
+
+
+
+
+.menu-section
+{
+    background:rgb(33, 33, 114);
+    padding: 0.8rem;
+    border-bottom: 1px solid white;
+}
+
+.menu-section .menu a
+{
+    margin: 0px 1.1rem;
+    padding: 3px;
+    font-size: 1.1rem;
+    font-family: tahoma;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-section .search
+{
+    color:white;
+    font-size: 1.5rem;
+    text-align:right;
+}
+
+.help
+{
+    font-size:1.1rem;
+    font-weight: 900;
+}
+
+.sign-on
+{
+    font-size:1.1rem;
+}
+
+.hero-section  .hero-bg-image
+{
+    background:url(../images/bg.jpg);
+    background-size:cover;
+    background-position: 50% 0;
+
+}
+.hero-section  .hero-bg-image-login
+{
+    background:url(../images/bg-login.jpg);
+    background-size:cover;
+    background-position: 20% 0;
+}
+.right-side
+{
+    background:linear-gradient(rgba(6, 6, 68, 0.9),rgba(6, 6, 68,  0.9));
+    opacity: 0.9;
+    color:white;  
+    height: 60vh;
+    
+}
+.hero-section  .right-side  .texts
+{
+    width: 90%;
+ 
+}
+ .texts small
+ {
+     letter-spacing: 1px;
+ }
+ .texts h1
+ {
+     font-size: 3.1rem;
+ }
+ .texts a small
+ {
+     color:rgba(6, 6, 68, 0.6);
+     font-weight: 900;
+ }
+
+
+.hero-form
+{
+    width:80%;
+}
+.hero-form2
+{
+    width:90%;
+}
+ .hero-form .link a
+ {
+     text-decoration: underline;
+     font-size: 0.9rem;
+ 
+ }
+ .hero-form2 .link a
+ {
+     text-decoration: underline;
+     font-size: 0.9rem;
+     line-height: 0.1px;
+ 
+ }
+.hero-form .sign
+ {
+     font-size: 1.9rem;
+ }
+ .hero-form2 .sign
+ {
+    font-size: 1.9rem;
+ }
+ .check
+ {
+    padding: 0.9px;
+ }
+
+.f-links-wrapper  a
+{
+    font-size: 0.9rem;
+    color:rgb(33, 33, 114) ;
+    opacity: 0.6;
+}
+ .hero-section-mobile
+ {
+     display: none;
+ }
+
+
+
+
+/*Main-------------------------------------------------------------------*/
+main
+{
+    background-color: #eef1f5;
+}
+.first-sec .item
+
+{
+    font-family: tahoma;
+}
+.first-sec .item   .frs-l
+{
+    color:rgb(33, 33, 114) !important;
+    opacity: 0.7;
+}
+.first-sec .item  .frs-l:hover
+{
+    color:rgb(12, 12, 104) !important;
+    opacity: 1;
+}
+
+.secon-sec .item
+
+{
+    font-family: tahoma;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER-------------------------------------------------------------------*/
+footer
+{
+    background-color: black;
+    color:white;
+    opacity: 0.8;
+}
+.links-wrapper  ul
+{
+    list-style-type: none;
+}
+
+.links-wrapper a
+{
+    color: white;
+}
+
+.footer-icon  i
+{
+    font-style:1.5rem;
+}
+
+
+.copyright-sec  ul
+{
+    list-style-type: none;
+}
+.copyright-sec  ul
+{
+    list-style-type: none;
+}
+
+.copyright-sec  ul  li
+{
+    display: inline;
+    margin-right: 1.1rem;
+}
+
+.img-sec img
+{
+    width: 20%;
+}
+
+
+
+
+/* Mobile view */
+
+ @media	only screen	and	(max-width:1116px)
+ {
+    .location,.world,.navbar-nav
+    {
+        display:none;
+    }
+    .extras
+    {
+        display: block;
+    }
+ }
+     
+ @media	only screen	and	(max-width:991px)
+ {
+   .navbar-nav
+    {
+        display:block;
+    }
+    .navbar-nav a
+    {
+        display:block;
+    }
+ }
+ 
+ @media	only screen	and	(max-width:970px)
+ {
+    .hero-form
+    {
+        display:none;
+    }
+   
+ }
+
+ 
+ @media	only screen	and	(max-width:770px)
+ {
+     html
+     {
+         font-size: 75%;
+     }
+    .hero-section-mobile
+    {
+        display:block;
+    }
+    .hero-section
+    {
+        display:none; 
+    }
+
+    .dsp-block
+    {
+        width: 100%;
+        margin-top: 70px;
+    }
+    
+ }
+ 
